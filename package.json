@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aniruddhashinde2212.github.io/Its_a_me_Aniruddha_Shinde",
+  "homepage": "https://AniruddhaShinde2212.github.io/Its_a_me_Aniruddha_Shinde",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
