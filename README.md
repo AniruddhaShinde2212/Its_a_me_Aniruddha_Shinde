@@ -7,8 +7,7 @@
 
 ## Live site
 
-> Replace with your actual deployment URL once live.  
-> Example: `https://aniruddha-shinde.vercel.app`
+>> https://aniruddhashinde2212.github.io/Its_a_me_Aniruddha_Shinde/
 
 ---
 
