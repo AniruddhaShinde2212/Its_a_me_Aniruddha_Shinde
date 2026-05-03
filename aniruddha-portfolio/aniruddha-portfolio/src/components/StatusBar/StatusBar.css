@@ -1,0 +1,30 @@
+.statusbar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: 24px;
+  background: var(--green3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.75rem;
+  font-size: 0.62rem;
+  font-family: var(--font-mono);
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.04em;
+  z-index: 200;
+}
+
+.statusbar__left, .statusbar__right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.statusbar__sep { opacity: 0.4; }
+.statusbar__item { display: flex; align-items: center; gap: 0.35rem; }
+.statusbar__item--green { color: #bbf7d0; font-weight: 600; }
+
+.statusbar .status-dot--online {
+  width: 5px; height: 5px;
+  box-shadow: 0 0 4px #fff;
+}
