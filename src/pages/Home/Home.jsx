@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Home.css";
+import profileImg from "../assets/profile.jpg";
 
 const SKILLS_TABLE = [
   { category: "big_data", name: "PySpark", level: 95, type: "ENGINE" },
