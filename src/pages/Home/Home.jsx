@@ -239,7 +239,16 @@ function Home({ setPage }) {
               <span className="panel-bar__title">profile.json</span>
             </div>
             <div className="profile-photo">
-              <img src={`${import.meta.env.BASE_URL}profile.jpg`} />
+              <img
+                src="src/profile.jpg"
+                alt="Aniruddha Shinde"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "top",
+                }}
+              />
             </div>
             <div className="profile-meta">
               <div className="profile-name">Aniruddha Shinde</div>
