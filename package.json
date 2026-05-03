@@ -6,7 +6,7 @@
   "homepage": "https://AniruddhaShinde2212.github.io/Its_a_me_Aniruddha_Shinde",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
