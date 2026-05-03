@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Home.css";
+import profileImg from "../../profile.jpg";
 
 const SKILLS_TABLE = [
   { category: "big_data", name: "PySpark", level: 95, type: "ENGINE" },
@@ -240,7 +241,7 @@ function Home({ setPage }) {
             </div>
             <div className="profile-photo">
               <img
-                src="src/profile.jpg"
+                src={profileImg}
                 alt="Aniruddha Shinde"
                 style={{
                   width: "100%",
