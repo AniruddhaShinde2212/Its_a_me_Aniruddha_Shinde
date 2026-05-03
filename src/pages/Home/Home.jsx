@@ -240,7 +240,7 @@ function Home({ setPage }) {
             </div>
             <div className="profile-photo">
               <img
-                src="/profile.jpg"
+                src="./profile.jpg"
                 alt="Aniruddha Shinde"
                 style={{
                   width: "100%",
@@ -269,13 +269,13 @@ function Home({ setPage }) {
                   icon: "⌗",
                   label: "github",
                   val: "github.com/aniruddha",
-                  href: "https://github.com/aniruddha",
+                  href: "https://github.com/aniruddhashinde2212",
                 },
                 {
                   icon: "◈",
                   label: "linkedin",
                   val: "linkedin.com/in/aniruddha",
-                  href: "https://linkedin.com/in/aniruddha",
+                  href: "https://linkedin.com/in/aniruddhas1",
                 },
                 {
                   icon: "✉",
